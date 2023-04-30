@@ -1,0 +1,129 @@
+.container {
+    display:grid;
+    grid-template-columns: minmax(300px, 1200px);
+    grid-template-rows: auto;
+    margin:30px;
+    background-color:#ffffff;
+    padding:40px;
+    border-radius: 10px;
+}
+body{
+    background-color:RGB(228,227,234);
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-rows: auto;
+    // background-color:red;
+    padding:5px;
+}
+
+.info{
+    display: block;
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.image{
+    display: flex;
+    position: relative;
+    align-self:start;
+    // background-color:yellow;
+    // margin: 10px;
+    // margin-left: 2px auto;
+    // margin-right: 2px auto;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,300px));
+    // background-color:green;
+    justify-content:center;
+}
+
+.video{
+   padding: 3px;
+   //align-self:start;
+   background-color:RGB(228,227,234);
+   border-radius: 3px;
+   margin:5px;
+}
+
+
+
+h1 {
+   font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
+   text-align:center;
+   font-size: 5em;
+   margin-top:-35px;
+   margin-bottom:10px;
+   color: RGB(0,112,192);
+   }
+h2 {
+    font-size: 3em;
+    color: RGB(89,89,89);
+    margin-top: -10px;
+    margin-bottom: -14px;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+}
+
+h3 {
+    font-size: 2em;
+    color: RGB(89,89,89);
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    }
+
+h4 {
+    font-size: 1.2em;
+    color: RGB(89,89,89);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    }
+
+small{
+   font-size: 0.8em;
+   // margin-left: 10px;
+}
+#photo{
+    margin:3px auto;
+    max-width: 90%;
+    max-height: 90%;
+    align-self: center;
+}
+
+p {
+   font-family: "Tahoma", "Trebuchet MS", Arial, sans-serif;
+   color: RGB(21,20,10);
+   font-size: 1em;
+}
+
+.collapsible {
+  // background-color: #777;
+  color: RGB(21,20,10);
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+}
+
+.active, .collapsible:hover {
+  color: white;
+  background-color: #777;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  // position: absolute;
+}
